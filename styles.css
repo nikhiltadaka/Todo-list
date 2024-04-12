@@ -1,0 +1,84 @@
+body{
+    background-color: bisque;
+}
+#top{
+    color: black;
+    font-size: 50px;
+}
+
+.container{
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(219, 227, 227, 0.899);
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.buttonadd{
+    cursor: pointer;
+    font-size: larger;
+    border: none;
+    outline: none;
+    padding: 18px 45px;
+    border-radius: 25px 25px 25px 25px;
+    background: rgb(162, 212, 212);
+    color: rgb(165, 126, 42);
+}
+
+
+ul li{
+    cursor: pointer;
+    /* padding: 18px 10px 10px 20px; */
+    padding: 10px 50px 20px;
+    padding-right: 100px;
+    list-style: none;
+    font-size : 20px;
+    user-select: none;   
+    
+}
+                
+/* ul li span {
+ 
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    text-align: center;
+}
+
+ul li span:hover{
+    background: red;
+} */
+
+button{
+    display: flex;
+    float: right;
+    /* justify-content: flex-end; */
+    cursor: pointer;
+    font-size: large;
+    border: none;
+    outline: none;  
+    /* padding: 18px 30px; */
+    border-radius: 25px 25px 25px 25px;
+    background: rgb(17, 197, 188);
+    color: red; 
+}
